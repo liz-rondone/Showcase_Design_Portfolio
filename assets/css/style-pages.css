@@ -1,0 +1,459 @@
+/********* RESOURCES *********/
+
+/* Tan: #A2958A rgb(162,149,138) */
+/* Light Gray: #E6E7E8 */
+
+/* font-family: 'Poppins', sans-serif; */
+/* font-family: 'Slabo 27px', serif; */
+
+
+* {box-sizing: border-box;}
+
+/********* LINKS *********/
+/* unvisited link */
+a:link {
+	color: #000;
+	text-decoration: none;
+	background-color: transparent;
+}
+
+/* visited link */
+a:visited {
+	color: #000;
+	text-decoration: none;
+	background-color: transparent;
+}
+
+/* mouse over link */
+a:hover {
+	color: #000;
+	text-decoration: underline;
+	background-color: transparent;
+	font-weight: 900;
+	/* border-top: 1px solid #000;
+	border-bottom: 1px solid #000; */
+}
+
+/* selected link */
+a:active {
+	color: red;
+}
+
+
+
+/********* NAVBAR HOME *********/
+.nav-link {
+	color: #000;
+	font-size: 14px;
+	letter-spacing: 1px;
+	font-family: 'Poppins', sans-serif;
+	font-weight: 700;
+}
+
+.active {
+	border-top: 1px solid #000;
+	border-bottom: 1px solid #000;
+	color: #000;
+	font-weight: 900;
+}
+
+/* HAMBURGER MENU */
+.custom-toggler.navbar-toggler {
+    border-color: rgb(162,149,138);
+}
+.custom-toggler .navbar-toggler-icon {
+  background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 32 32' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgba(0, 0, 0, 0.7)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 8h24M4 16h24M4 24h24'/%3E%3C/svg%3E");
+}
+
+
+/********* ABOUT *********/
+.title {
+	text-align: center;
+	font-family: 'Slabo 27px', serif;
+	font-size: 35px;
+	margin: 15px 0;
+}
+
+.img {
+	width: 100%;
+	text-align: right;
+}
+
+.subhead {
+	font-family: 'Poppins', sans-serif;
+	text-align: left;
+	color: #000;
+	font-size: 21px;
+	line-height: 27px;
+	letter-spacing: .5px;
+	font-weight: 600;
+}
+
+.content {
+	font-family: 'Poppins', sans-serif;
+	text-align: left;
+	color: #000;
+	font-size: 17px;
+	line-height: 27px;
+	letter-spacing: .5px; 
+}
+
+
+
+/********* PORTFOLIO *********/
+.thmbnl-container {
+	margin: 0 0 50px 0;
+}
+
+.img-thumbnail{
+	border: none;
+	display: block;
+	/* width: 300px; */
+	margin: 0 auto 10px;
+}
+
+.img-title {
+	display: block;
+	font-family: 'Poppins', sans-serif;
+	text-align: center;
+	color: #000;
+	font-size: 18px;
+	letter-spacing: .5px;
+	/* font-weight: bold; */
+}
+
+.img-location {
+	display: block;
+	font-family: 'Poppins', sans-serif;
+	text-align: center;
+	color: #000;
+	font-size: 11px;
+	letter-spacing: 6px;
+}
+
+.modal {
+	border-radius: 0 !important;
+}
+
+.modal-header {
+	border: none;
+}
+
+.modal-title {
+	font-family: 'Poppins', sans-serif;
+	letter-spacing: .5px;
+}
+
+.carousel-item {
+	border: none;
+}
+
+
+/********* CONTACT *********/
+.contact-p {
+	margin: 0 0 30px 0;
+	color: #000;
+}
+
+.sm-contact {
+	display: table-cell;
+	vertical-align: middle;
+}
+
+
+/********* FOOTER *********/
+.footer {
+	/* border-top: #000 1px solid; */
+	padding: 30px 10px;
+	background-color: #E6E7E8;
+	font-family: 'Poppins', sans-serif;
+	text-align: left;
+	font-size: 13px;
+	letter-spacing: .5px;
+	color: rgb(66, 66, 66);
+	/* margin: 20px 0 0 0; */
+}
+
+.fixed-bottom-edit {
+	position: fixed;
+	right: 0;
+	bottom: 0;
+	left: 0;
+	z-index: 1030;
+}
+
+.footer-phone {
+	/* border-top: #000 1px solid; */
+	font-family: 'Poppins', sans-serif;
+	text-align: left;
+	font-size: 13px;
+	color: #000;
+	font-weight: 0;
+
+	/* margin: 20px 0 0 0; */
+}
+
+.footer-logo {
+	text-align: center;
+}
+
+.footer-contact {
+	text-align: right;
+}
+
+.pos-rel {
+	position:relative;
+}
+
+.pos-abso {
+	position:absolute;
+	top: 55%;
+	right: 0%;
+}
+
+.sm-container {
+	text-align: right;
+	display: table-cell;
+	vertical-align: middle;
+}
+
+.sm-img {
+	width: 25px;
+	height: 25px;
+	margin: 0 0 0 15px;
+}
+
+.sm-FBimg {
+	width: 25px;
+	height: 25px;
+	/* margin: 0 0 0 10px; */
+}
+
+
+/********* INDIVIDUAL CLASSES *********/
+.bkg-pink {background-color: pink;}
+.bkg-white {background-color: white;}
+
+.disp-tab {display: table;}
+.disp-blk {display: block;}
+
+.float-l {float: left;}
+.float-r {float: right;}
+
+.italic {font-style: italic;}
+
+.marg-0 {margin: 0 !important;}
+.marg-0-auto {margin: 0 auto;}
+.marg-60 {margin: 60px;}
+.marg-0-30 {margin: 0 0 50px 0;}
+.marg-bot20 {margin: 20px 0 0 0;}
+
+.op50 {opacity: .75;}
+
+.pad-fixed {padding: 100px 0 120px 0;}
+.pad-100 {padding: 0 100px;}
+.padtop40 {padding: 40px 0 0 0;}
+
+.top50 {top: 50%;}
+
+.txt-cntr {text-align: center;}
+.txt-r {text-align: right;}
+.txt-white {color: #fff;}
+
+.vert-cntr {vertical-align: middle;}
+
+.w-100 {width: 100%;}
+
+
+/********* MEDIA QUERIES *********/
+@media screen and (max-width: 768px) {
+	.mm-pad30 {padding: 30px;}
+	.mm-pad60 {padding: 0 60px;}
+}
+	
+@media screen and (max-width: 640px) {
+	.ms-block {display: inline-block;}
+	.ms-disp {display: table-cell;}
+	.ms-float0 {float: none;}
+	.ms-marg0 {margin:0;}
+	.ms-margauto {margin: 0 auto;}
+	.ms-marg30 {margin: 10px;}
+	.ms-margtop20 {margin: 20px 0 0 0;}
+	.ms-margtop60 {margin: 60px 0 0 0;}
+	.ms-pad300 {padding: 30px 15px 0;}
+	.ms-padbot0 {padding-bottom: 0;}
+	.ms-padbot30 {padding-bottom: 30px;}
+	.ms-pad20 {padding: 0 10px;}
+	.ms-pad30 {padding: 0 30px;}
+	.ms-posstatic {position: static;}
+	.ms-stk-footer {position: relative;}
+	.ms-txt-ctr {text-align: center;}
+	.ms-w60 {width: 60%;}
+	.ms-w100 {width: 100%;}
+}
+
+
+
+/********* FIRST ELEMENT ANIMATION *********/
+#firstAnimation {
+	position: relative;
+	-webkit-animation-timing-function: ease-in;
+  -webkit-animation-name: first-animation;
+	-webkit-animation-duration: 1s;
+
+	-moz-animation-timing-function: ease-in;
+  -moz-animation-name: first-animation;
+	-moz-animation-duration: 1s;
+
+	-ms-animation-timing-function: ease-in;
+  -ms-animation-name: first-animation;
+	-ms-animation-duration: 1s;
+
+	-o-animation-timing-function: ease-in;
+  -o-animation-name: first-animation;
+	-o-animation-duration: 1s;
+	
+	animation-timing-function: ease-in;
+  animation-name: first-animation;
+  animation-duration: 1s;
+}
+
+/* Standard syntax */
+@keyframes first-animation {
+  from {left:0px; top:-20px; opacity: 0;}
+  to {left:0px; top:0px; opacity:1;}
+}
+
+/* Firefox < 16 */
+@-moz-keyframes first-animation {
+	from {left:0px; top:-20px; opacity: 0;}
+  to {left:0px; top:0px; opacity:1;}
+}
+
+/* Safari 4.0 - 8.0 */
+@-webkit-keyframes first-animation {
+  from {left:0px; top:-20px; opacity: 0;}
+  to {left:0px; top:0px; opacity:1;}
+}
+
+/* Internet Explorer */
+@-ms-keyframes first-animation {
+	from {left:0px; top:-20px; opacity: 0;}
+  to {left:0px; top:0px; opacity:1;}
+}
+
+/* Opera < 12.1 */
+@-o-keyframes first-animation {
+	from {left:0px; top:-20px; opacity: 0;}
+  to {left:0px; top:0px; opacity:1;}
+}
+
+/* ANIMATION */
+.fade-in {
+  opacity:0;
+  -webkit-animation:fadeIn ease-in 1;
+	-moz-animation:fadeIn ease-in 1;
+	-ms-animation:fadeIn ease-in 1;
+	-o-animation-duration:fadeIn ease-in 1;
+  animation:fadeIn ease-in 1;
+
+  -webkit-animation-fill-mode:forwards;
+	-moz-animation-fill-mode:forwards;
+	-ms-animation-fill-mode:forwards;
+	-o-animation-fill-mode:forwards;
+  animation-fill-mode:forwards;
+
+  -webkit-animation-duration:1s;
+	-moz-animation-duration:1s;
+	-ms-animation-duration:1s;
+	-o-animation-duration:1s;
+  animation-duration:1s;
+}
+
+.fade-in.one {
+  -webkit-animation-delay: 0s;
+	-moz-animation-delay: 0s;
+	-ms-animation-delay: 0s;
+	-o-animation-delay: 0s;
+  animation-delay: 0s;
+}
+
+.fade-in.two {
+  -webkit-animation-delay: 0.2s;
+	-moz-animation-delay:0.2s;
+	-ms-animation-delay:0.2s;
+	-o-animation-delay:0.2s;
+  animation-delay: 0.2s;
+}
+
+.fade-in.three {
+  -webkit-animation-delay: 0.4s;
+	-moz-animation-delay: 0.4s;
+	-ms-animation-delay: 0.4s;
+	-o-animation-delay: 0.4s;
+  animation-delay: 0.4s;
+}
+
+.fade-in.four {
+  -webkit-animation-delay: 0.6s;
+	-moz-animation-delay: 0.6s;
+	-ms-animation-delay: 0.6s;
+	-o-animation-delay: 0.6s;
+  animation-delay: 0.6s;
+}
+
+.fade-in.five {
+  -webkit-animation-delay: 0.8s;
+	-moz-animation-delay: 0.8s;
+	-ms-animation-delay: 0.8s;
+	-o-animation-delay: 0.8s;
+  animation-delay: 0.8s;
+}
+
+.fade-in.six {
+  -webkit-animation-delay: 1s;
+	-moz-animation-delay: 1s;
+	-ms-animation-delay: 1s;
+	-o-animation-delay: 1s;
+  animation-delay: 1s;
+}
+
+.fade-in.seven {
+  -webkit-animation-delay: 1.2s;
+	-moz-animation-delay: 1.2s;
+	-ms-animation-delay: 1.2s;
+	-o-animation-delay: 1.2s;
+  animation-delay: 1.2s;
+}
+
+.fade-in.eight {
+  -webkit-animation-delay: 1.4s;
+	-moz-animation-delay: 1.4s;
+	-ms-animation-delay: 1.4s;
+	-o-animation-delay: 1.4s;
+  animation-delay: 1.4s;
+}
+
+/**** ANIMATION ****/
+@-webkit-keyframes fadeIn { 
+	from { left:0px; top:-20px; opacity:0; } 
+	to { left:0px; top:0px; opacity:1; } 
+}
+@-moz-keyframes fadeIn { 
+	from { left:0px; top:-20px; opacity:0; } 
+	to { left:0px; top:0px; opacity:1; } 
+}
+@-ms-keyframes fadeIn { 
+	from { left:0px; top:-20px; opacity:0; } 
+	to { left:0px; top:0px; opacity:1; } 
+}
+@-o-keyframes fadeIn { 
+	from { left:0px; top:-20px; opacity:0; } 
+	to { left:0px; top:0px; opacity:1; } 
+}
+@keyframes fadeIn { 
+	from { left:0px; top:-20px; opacity:0; } 
+	to { left:0px; top:0px; opacity:1; } 
+}
+
+
